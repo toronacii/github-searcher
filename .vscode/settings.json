@@ -1,0 +1,7 @@
+// Coloque su configuración en este archivo para sobrescribir la configuración predeterminada y de usuario.
+{
+    "files.exclude": {
+        "app/**/.js": {"when": "$(basename).ts"},
+        "app/**/.js.map": true
+    }
+}
